@@ -1,0 +1,166 @@
+<!doctype html>
+<!-- Site publico da SIMITEC.
+     Este HTML e a casca; o conteudo vivo entra pelo app.js. -->
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SIMITEC | Semana de Inovação e Metodologias Integradas a Tecnologias</title>
+    <meta
+      name="description"
+      content="SIMITEC — Semana de Inovação e Metodologias Integradas a Tecnologias. Inscreva-se para trilhas tecnológicas, feira de ciências, oficinas, cosplay e muito mais na ECIT Márcia Guedes em Belém-PB."
+    />
+    <meta name="keywords" content="SIMITEC, feira de ciências, tecnologia, inovação, ECIT Márcia Guedes, Belém PB, inscrição, evento escolar" />
+    <meta name="author" content="SIMITEC — ECIT Márcia Guedes" />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="SIMITEC | Inscrições Abertas" />
+    <meta property="og:description" content="Semana de Inovação e Metodologias Integradas a Tecnologias — trilhas, feira de ciências, oficinas, cosplay e cultura geek." />
+    <meta property="og:image" content="/assets/simitec-banner.png" />
+    <meta property="og:url" content="/" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="SIMITEC" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SIMITEC | Inscrições Abertas" />
+    <meta name="twitter:description" content="Trilhas tecnológicas, feira de ciências, oficinas e muito mais." />
+    <meta name="twitter:image" content="/assets/simitec-banner.png" />
+
+    <meta name="theme-color" content="#0b1121" />
+    <meta name="google-client-id" content="137840492225-v2lv0g8s67kerh74pqjqmp29tcf1l7tg.apps.googleusercontent.com" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/simitec-favicon-512.png?v=20260609b" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/simitec-favicon-192.png?v=20260609b" />
+    <link rel="apple-touch-icon" href="/assets/simitec-favicon-192.png?v=20260609b" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.min.css?v=20260726-light-base" />
+    <link rel="stylesheet" href="/theme-light.min.css?v=20260728-light-refine-3" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <!-- Skip to content (a11y) -->
+    <a href="#app" class="skip-to-content">Pular para o conteúdo</a>
+
+    <!-- Scroll progress indicator -->
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="brand" aria-label="SIMITEC">
+        <img src="/assets/simitec-logo-oficial-2026-256.png" alt="SIMITEC" width="44" height="44" decoding="async" />
+        <span>
+          <strong>SIMITEC</strong>
+          <small>Inscrições</small>
+        </span>
+      </div>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+        <button data-route="/"><i data-lucide="home"></i><span>Início</span></button>
+        <button data-route="/inscricao"><i data-lucide="ticket-check"></i><span>Inscrição</span></button>
+        <button data-route="/areas"><i data-lucide="sparkles"></i><span>Áreas</span></button>
+        <button data-route="/cronograma"><i data-lucide="table-2"></i><span>Cronograma</span></button>
+        <button data-route="/palestrantes"><i data-lucide="mic-2"></i><span>Palestrantes</span></button>
+        <button data-route="/faq"><i data-lucide="circle-help"></i><span>FAQ</span></button>
+        <button data-route="/galeria"><i data-lucide="images"></i><span>Galeria</span></button>
+      </nav>
+
+      <div class="user-controls" id="userControls"></div>
+      
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+    </header>
+
+    <main id="top">
+      <div id="app" tabindex="-1"></div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="/assets/simitec-logo-oficial-2026-256.png" alt="SIMITEC" class="footer-logo" width="96" height="96" loading="lazy" decoding="async" />
+          <strong>SIMITEC</strong>
+          <p>Semana de Inovação e Metodologias Integradas a Tecnologias.</p>
+          <p class="footer-school">ECIT ENGENHEIRA MARCIA GUEDES ALCOFORADO DE CARVALHO</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navegação</h4>
+          <nav aria-label="Links do rodapé">
+            <a href="/#/">Início</a>
+            <a href="/#/inscricao">Inscrição</a>
+            <a href="/#/areas">Áreas</a>
+            <a href="/#/cronograma">Cronograma</a>
+            <a href="/#/faq">FAQ</a>
+            <a href="/#/galeria">Galeria</a>
+          </nav>
+        </div>
+        <div class="footer-contact">
+          <h4>Localização</h4>
+          <p><i data-lucide="map-pin"></i> Rua 1 de Maio, 220 — Belém, PB</p>
+          <p><i data-lucide="school"></i> ECIT Márcia Guedes</p>
+          <h4>Legal</h4>
+          <nav aria-label="Links legais">
+            <a href="/termos" data-route="/termos">Termos e Condições</a>
+            <a href="/privacidade" data-route="/privacidade">Política de Privacidade</a>
+            <a href="/creditos" data-route="/creditos">Créditos</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 SIMITEC · Todos os direitos reservados</span>
+      </div>
+    </footer>
+
+    <!-- Lightbox overlay -->
+    <div class="lightbox-overlay" id="lightbox" aria-hidden="true" role="dialog" aria-label="Visualizador de imagem">
+      <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Fechar"><i data-lucide="x"></i></button>
+      <button class="lightbox-prev" id="lightboxPrev" type="button" aria-label="Anterior"><i data-lucide="chevron-left"></i></button>
+      <img class="lightbox-img" id="lightboxImg" src="" alt="" />
+      <button class="lightbox-next" id="lightboxNext" type="button" aria-label="Próxima"><i data-lucide="chevron-right"></i></button>
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+
+    <!-- Speaker profile modal -->
+    <div class="speaker-modal-overlay" id="speakerModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="speakerModalTitle">
+      <article class="speaker-modal-card" id="speakerModalCard"></article>
+    </div>
+
+    <!-- Area registration modal -->
+    <div class="area-modal-overlay" id="areaRegistrationModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="areaRegistrationModalTitle" aria-describedby="areaRegistrationModalDescription">
+      <article class="area-modal-card" id="areaRegistrationModalCard"></article>
+    </div>
+
+    <!-- Teacher validation modal -->
+    <div class="area-modal-overlay teacher-modal-overlay" id="teacherValidationModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="teacherValidationModalTitle" aria-describedby="teacherValidationModalDescription">
+      <article class="area-modal-card teacher-modal-card" id="teacherValidationModalCard"></article>
+    </div>
+
+    <!-- Confirmation modal -->
+    <div class="modal-overlay" id="confirmModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalMessage">
+      <div class="modal-card">
+        <h3 id="modalTitle">Confirmar ação</h3>
+        <p id="modalMessage">Tem certeza?</p>
+        <div class="modal-actions">
+          <button class="btn ghost" id="modalCancel" type="button">Cancelar</button>
+          <button class="btn primary" id="modalConfirm" type="button">Confirmar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <button class="back-to-top" id="backToTop" type="button" aria-label="Voltar ao topo">
+      <i data-lucide="arrow-up"></i>
+    </button>
+    <script type="module" src="/app.min.js?v=20260726-final"></script>
+  </body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+   Regras de backup do Android. Hoje o app usa o comportamento padrão do sistema.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- Sem lista manual por enquanto; menos coisa mexida, menos chance de backup torto. -->
+    </cloud-backup>
+</data-extraction-rules>

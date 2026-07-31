@@ -1,0 +1,199 @@
+/*
+ * Tema claro SIMITEC do painel.
+ * Somente cores e contraste; nenhuma regra estrutural ou de layout.
+ */
+:root:not(.dark) {
+  color-scheme: light;
+  --simitec-navy: #0b3c59;
+  --simitec-ocean: #0b7ca6;
+  --simitec-mint: #16836b;
+  --simitec-solar: #b8750d;
+  --simitec-coral: #bd4058;
+  --background: #eef4f7;
+  --foreground: #172f43;
+  --card: #ffffff;
+  --card-foreground: #172f43;
+  --popover: #ffffff;
+  --popover-foreground: #172f43;
+  --primary: #0b7ca6;
+  --primary-foreground: #ffffff;
+  --secondary: #e5f4ef;
+  --secondary-foreground: #126653;
+  --muted: #e8f0f4;
+  --muted-foreground: #587083;
+  --accent: #eaf5f7;
+  --accent-foreground: #17364a;
+  --destructive: #bd4058;
+  --destructive-foreground: #ffffff;
+  --border: #cfdee6;
+  --input: #ffffff;
+  --input-background: #ffffff;
+  --switch-background: #a9c5d0;
+  --ring: #0b7ca6;
+  --chart-1: #0b7ca6;
+  --chart-2: #16836b;
+  --chart-3: #b8750d;
+  --chart-4: #6862b3;
+  --chart-5: #bd4058;
+  --sidebar: #f7fafc;
+  --sidebar-foreground: #172f43;
+  --sidebar-primary: #0b7ca6;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #e5f3f6;
+  --sidebar-accent-foreground: #17364a;
+  --sidebar-border: #c7dbe4;
+  --sidebar-ring: #0b7ca6;
+}
+
+:root:not(.dark) body,
+:root:not(.dark) .bg-background {
+  color: #172f43;
+  background:
+    radial-gradient(circle at 8% 0%, rgba(50, 174, 203, 0.11), transparent 26rem),
+    radial-gradient(circle at 96% 4%, rgba(40, 164, 128, 0.08), transparent 22rem),
+    linear-gradient(180deg, #f5f9fb 0%, #eef4f7 100%);
+}
+
+:root:not(.dark) .bg-sidebar {
+  color: #172f43;
+  border-color: #c7dbe4;
+  background: linear-gradient(180deg, #ffffff 0%, #eef6f8 62%, #edf6f2 100%);
+  box-shadow: 7px 0 24px rgba(25, 61, 83, 0.08);
+}
+
+:root:not(.dark) .bg-sidebar .text-foreground {
+  color: #17364a;
+}
+
+:root:not(.dark) .bg-sidebar .text-muted-foreground {
+  color: #5d7586;
+}
+
+:root:not(.dark) .bg-sidebar .border-border {
+  border-color: #c9dce4;
+}
+
+:root:not(.dark) .bg-sidebar .bg-accent\/50 {
+  background: rgba(222, 239, 244, 0.8);
+}
+
+:root:not(.dark) .bg-sidebar a.text-muted-foreground:hover,
+:root:not(.dark) .bg-sidebar button.text-muted-foreground:hover {
+  color: #075d7c;
+  background: #e1f1f4;
+}
+
+:root:not(.dark) .bg-sidebar a.text-primary {
+  color: #ffffff;
+  border-color: #0b7ca6;
+  background: linear-gradient(135deg, #0b7ca6, #16836b);
+  box-shadow: 0 7px 16px rgba(9, 112, 131, 0.17);
+}
+
+:root:not(.dark) header[class*="bg-card"] {
+  color: #172f43;
+  border-color: #cfdee6;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 4px 16px rgba(25, 61, 83, 0.07);
+}
+
+:root:not(.dark) .bg-card {
+  color: #172f43;
+  border-color: #cfdee6;
+  background-color: #ffffff;
+  box-shadow: 0 9px 22px rgba(25, 61, 83, 0.08);
+}
+
+:root:not(.dark) .bg-accent,
+:root:not(.dark) .bg-accent\/50,
+:root:not(.dark) .bg-accent\/30,
+:root:not(.dark) .bg-accent\/20 {
+  background-color: #eaf5f7;
+}
+
+:root:not(.dark) input,
+:root:not(.dark) select,
+:root:not(.dark) textarea {
+  color: #18374a;
+  border-color: #bfd3dc;
+  background-color: #ffffff;
+}
+
+:root:not(.dark) input::placeholder,
+:root:not(.dark) textarea::placeholder {
+  color: #7b8f9e;
+}
+
+:root:not(.dark) input:focus,
+:root:not(.dark) select:focus,
+:root:not(.dark) textarea:focus {
+  border-color: #0b7ca6;
+  box-shadow: 0 0 0 3px rgba(11, 124, 166, 0.14);
+}
+
+:root:not(.dark) button.bg-primary,
+:root:not(.dark) a.bg-primary {
+  color: #ffffff;
+  background: linear-gradient(135deg, #0b7ca6, #16836b);
+  box-shadow: 0 7px 16px rgba(9, 112, 131, 0.17);
+}
+
+:root:not(.dark) button.bg-primary:hover,
+:root:not(.dark) a.bg-primary:hover {
+  background: linear-gradient(135deg, #086486, #116b58);
+}
+
+:root:not(.dark) .border-border {
+  border-color: #cfdee6;
+}
+
+:root:not(.dark) .text-foreground {
+  color: #172f43;
+}
+
+:root:not(.dark) .text-muted-foreground {
+  color: #587083;
+}
+
+:root:not(.dark) .text-primary,
+:root:not(.dark) .text-blue-400 {
+  color: #0b7198;
+}
+
+:root:not(.dark) .text-green-400 {
+  color: #16745f;
+}
+
+:root:not(.dark) .text-yellow-400 {
+  color: #9b620b;
+}
+
+:root:not(.dark) .text-red-400 {
+  color: #b43850;
+}
+
+:root:not(.dark) table thead,
+:root:not(.dark) table thead .bg-accent\/30 {
+  color: #ffffff;
+  background: linear-gradient(135deg, #0b6485, #16836b);
+}
+
+:root:not(.dark) table thead .text-muted-foreground,
+:root:not(.dark) table thead .text-foreground {
+  color: #ffffff;
+}
+
+:root:not(.dark) table tbody tr:hover {
+  background-color: #edf7f8;
+}
+
+:root:not(.dark) .admin-guide-highlight {
+  box-shadow: 0 0 0 9999px rgba(16, 47, 67, 0.58), 0 0 0 5px rgba(75, 184, 208, 0.28);
+}
+
+:root:not(.dark) .admin-guide-card {
+  color: #172f43;
+  border-color: #9cc7d4;
+  background: #ffffff;
+  box-shadow: 0 20px 48px rgba(25, 61, 83, 0.22);
+}

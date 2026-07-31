@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+.expo/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+keystore.properties
+local.properties
+
+# Logs and local runtime state
+*.log
+npm-debug.log*
+.server*.log
+.run/
+.data/
+
+# Android and Gradle
+.gradle/
+.kotlin/
+.idea/
+build/
+app/build/
+*.apk
+*.aab
+
+# QA artifacts
+.playwright-cli/
+artifacts/
+output/*
+arquivos-gerados/
+app-*.png
+
+# Locally uploaded files pending external storage
+Site Publico/uploads/*
+!Site Publico/uploads/.gitkeep
+
+# Operating systems
+.DS_Store
+Thumbs.db

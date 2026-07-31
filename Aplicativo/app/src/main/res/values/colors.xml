@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="simitec_navy">#FF071A2B</color>
+    <color name="simitec_ocean">#FF1BB7F0</color>
+    <color name="simitec_mint">#FF20D6A2</color>
+    <color name="simitec_solar">#FFF6C453</color>
+    <color name="simitec_coral">#FFE85D75</color>
+    <color name="purple_200">#FF6876D8</color>
+    <color name="purple_500">#FF1BB7F0</color>
+    <color name="purple_700">#FF0B8FD1</color>
+    <color name="teal_200">#FF20D6A2</color>
+    <color name="teal_700">#FF0E8F6A</color>
+    <color name="black">#FF071A2B</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
